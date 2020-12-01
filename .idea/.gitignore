@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../:\Users\psiewiera.VISIONGROUP\PycharmProjects\playground_qt\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/inspectionProfiles/
+/misc.xml
+/modules.xml
+/playground_qt.iml
+/vcs.xml
