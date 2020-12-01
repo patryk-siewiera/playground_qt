@@ -1,9 +1,14 @@
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QApplication, QMainWindow
+from PySide2 import QtWidgets
+from PySide2.QtWidgets import QApplication, QMainWindow
 import sys
 
 
-# TODO: requierments -> venv
+# for conversion .ui file -> python
+# in terminal:
+# pyuic5 -x input_file.ui -o output_file.py
+# -o -> write generated code to FILE instead of stdout
+# -x, -- execute ->  generate extra code to test and display the class
+
 
 class MyWindow(QMainWindow):
     def __init__(self):
